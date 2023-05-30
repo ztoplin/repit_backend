@@ -2,7 +2,7 @@
 
 Rep-it NYC! is a civic education and accessibility application that returns a list of all of a user-specific elected representatives, complete with descriptions of their respective responsibilities, contact information, and links to their websites, social media, community board sites and various demographic and health report data.
 
-Backend written using Node.js, employing Google Civic information API, NYC Geoclient API, and PostgreSQL
+Backend written using Node.js, employing Google Civic Information API, NYC Geoclient API, and PostgreSQL
 
 Link for the frontend repository: https://github.com/ztoplin/repit_frontend
 
