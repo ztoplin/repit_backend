@@ -56,7 +56,6 @@ router.post("/register", async (req, res) => {
 });
 
 router.put("/offices", async (req, res) => {
-  console.log('IN /OFFICES')
   const { title, description } = req.body;
 
   try {
@@ -68,21 +67,6 @@ router.put("/offices", async (req, res) => {
     console.error(error);
     res.status(400).send(error.message);
   }
-});
-
-router.post("/update-offices", async (req, res) => {
-  console.log('IN /UPDATE_OFFICES')
-  // const { title, description } = req.body;
-
-  // try {
-  //   const office = await Office.findOne({ where: { title } });
-  //   office.description = description;
-  //   await office.save();
-  //   res.status(200).send("Office successfully updated");
-  // } catch (error) {
-  //   console.error(error);
-  //   res.status(400).send(error.message);
-  // }
 });
 
 router.post("/login", async (req, res) => {
